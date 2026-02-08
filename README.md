@@ -84,7 +84,47 @@ The circuit is highly entangling and can appear nearly uniform under naive simul
 - Notebook: `Solutions/P5.ipynb`
 
 
+## Solutions — Recovered Peak Bitstrings
 
+The following peak bitstrings were recovered for the solved challenges.  
+(The submission platform accepts each bitstring or its reverse.)
+
+| Problem | Qubits | Peak Bitstring | Notes |
+|-------:|-------:|----------------|-------|
+| **P1** | 4  | `1001` | Inferred directly from circuit structure |
+| **P2** | 20 | `11000001000100011000` | Exact statevector simulation |
+| **P3** | 30 | `001110001111101100001101010001` | Exact statevector simulation |
+| **P4** | 40 | `1011011000101000010011001110100001010110` | MPS simulation |
+| **P5** | 50 | `01101000100100001010101011100000010111100011111110` | High-bond MPS + sampling aggregation |
+
+---
+
+### Additional recovered solutions (not fully documented)
+
+These solutions were recovered during the event but are not yet fully written up in this repository.
+
+**P7 — Rolling Ridge (46 qubits)**  
+Peak bitstring:
+```
+0000011101100100001000111100111111111101000110
+```
+Estimated probability: `0.36032951062222224`
+
+**P8 — Bold Peak (72 qubits)**  
+Peak bitstring:
+```
+010100010010111001000011110001110011101110100011010001000111101001111101
+```
+
+---
+
+**Contributors**
+- Joven Sekhon (JSekhon)
+- Elena Yu (yxele)
+
+
+
+### REQUIREMENTS 
 
 ```bash
 pip install -r requirements.txt
